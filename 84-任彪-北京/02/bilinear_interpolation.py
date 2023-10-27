@@ -31,7 +31,7 @@ def bilinear_interpolation(img, param):
 
 
 if __name__ == '__main__':
-    img = cv2.imread('/Users/xiaoluoluosuper-/Downloads/lenna.png')
+    img = cv2.imread('lenna.png')
     new_img = bilinear_interpolation(img, (200, 200))
     cv2.imshow('bilinear img', new_img)
     cv2.imshow('origin img', img)

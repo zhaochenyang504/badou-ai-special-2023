@@ -39,7 +39,7 @@ def change_binary(img):
     return img_binary
 
 if __name__ == '__main__':
-    img = cv2.imread('/Users/xiaoluoluosuper-/Downloads/lenna.png')
+    img = cv2.imread('lenna.png')
     new_img = change_gray(img)
     cv2.imshow('gray image', new_img)
     img_binary = change_binary(new_img)

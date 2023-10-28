@@ -46,7 +46,6 @@ conda info --env
 
 
 
-
 conda install tensorflow=1.15
 conda install keras=2.3.1
 conda install pytorch torchvision torchaudio cudatoolkit=12.3 -c pytorch

@@ -29,6 +29,7 @@ def interpolate_image(image, param):
 
 if __name__ == "__main__":
     image = cv2.imread("C:/Users/15082/Desktop/lenna.png")
-    dst = interpolate_image(image, (100, 100))
+    dst = interpolate_image(image, (2400, 1000))
     cv2.imshow("image", dst)
+    print('打印完成')
     cv2.waitKey(0)
